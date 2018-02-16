@@ -1,0 +1,126 @@
+.t {
+  position: absolute;
+  transition: all ease-in-out .3s;
+  opacity: 0.7;
+  animation: deploy 2s alternate-reverse 1s 2; }
+  .t:hover {
+    opacity: 0.9;
+    transform: rotateZ(360deg); }
+
+.t1 {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-right: 43.3px solid #32A4DA;
+  left: 50px;
+  bottom: 75px; }
+
+.t2 {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 43.3px solid #9D84BE;
+  left: 50px;
+  bottom: 100px; }
+
+.t3 {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-right: 43.3px solid #DA569F;
+  left: 50px;
+  bottom: 125px; }
+
+.t4 {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 43.3px solid #F04033;
+  left: 93.3px;
+  bottom: 125px; }
+
+.t5 {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-right: 43.3px solid #F79F48;
+  left: 93.3px;
+  bottom: 100px; }
+
+.t6 {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 43.3px solid #FFCA08;
+  left: 136px;
+  bottom: 100px; }
+
+.t7 {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-right: 43.3px solid #99CB52;
+  left: 136px;
+  bottom: 125px; }
+
+.t8 {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 43.3px solid #3CB54C;
+  left: 179.3px;
+  bottom: 125px; }
+
+.t9 {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-right: 43.3px solid #1FBCC1;
+  left: 179.3px;
+  bottom: 100px; }
+
+.t10 {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 43.3px solid #679AD3;
+  left: 179.3px;
+  bottom: 75px; }
+
+.animate-logo {
+  perspective: 267px;
+  width: 267px;
+  height: 200px;
+  margin: auto;
+  display: block;
+  position: relative;
+  border: 1px solid #eee;
+  transition: all ease-in-out .3s; }
+  .animate-logo h1 {
+    font-family: arial;
+    text-align: center;
+    color: #333;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    margin: 0 auto; }
+
+@keyframes deploy {
+  from {
+    left: 110px;
+    bottom: 100px;
+    opacity: 0;
+    transform: rotate(0); }
+  to {
+    opacity: 0.7;
+    transform: rotate(360deg); } }
