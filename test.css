@@ -1,10 +1,19 @@
+/**
+ *  LeMarson Animated logo
+ *  @author franckysolo
+ *  @date 16/02/2018
+ */
+@import url("https://fonts.googleapis.com/css?family=Mukta+Malar");
+body {
+  font-family: 'Mukta Malar', sans-serif; }
+
 .t {
   position: absolute;
   transition: all ease-in-out .3s;
-  opacity: 0.7;
+  opacity: 0.9;
   animation: deploy 2s alternate-reverse 1s 2; }
   .t:hover {
-    opacity: 0.9;
+    opacity: 1;
     transform: rotateZ(360deg); }
 
 .t1 {
@@ -12,7 +21,7 @@
   height: 0;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
-  border-right: 43.3px solid #32A4DA;
+  border-right: 43.3px solid #c43108;
   left: 50px;
   bottom: 75px; }
 
@@ -21,7 +30,7 @@
   height: 0;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
-  border-left: 43.3px solid #9D84BE;
+  border-left: 43.3px solid #c43108;
   left: 50px;
   bottom: 100px; }
 
@@ -30,7 +39,7 @@
   height: 0;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
-  border-right: 43.3px solid #DA569F;
+  border-right: 43.3px solid #c43108;
   left: 50px;
   bottom: 125px; }
 
@@ -39,7 +48,7 @@
   height: 0;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
-  border-left: 43.3px solid #F04033;
+  border-left: 43.3px solid #c43108;
   left: 93.3px;
   bottom: 125px; }
 
@@ -48,7 +57,7 @@
   height: 0;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
-  border-right: 43.3px solid #F79F48;
+  border-right: 43.3px solid #c43108;
   left: 93.3px;
   bottom: 100px; }
 
@@ -57,7 +66,7 @@
   height: 0;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
-  border-left: 43.3px solid #FFCA08;
+  border-left: 43.3px solid #c43108;
   left: 136px;
   bottom: 100px; }
 
@@ -66,7 +75,7 @@
   height: 0;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
-  border-right: 43.3px solid #99CB52;
+  border-right: 43.3px solid #c43108;
   left: 136px;
   bottom: 125px; }
 
@@ -75,7 +84,7 @@
   height: 0;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
-  border-left: 43.3px solid #3CB54C;
+  border-left: 43.3px solid #c43108;
   left: 179.3px;
   bottom: 125px; }
 
@@ -84,7 +93,7 @@
   height: 0;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
-  border-right: 43.3px solid #1FBCC1;
+  border-right: 43.3px solid #c43108;
   left: 179.3px;
   bottom: 100px; }
 
@@ -93,7 +102,7 @@
   height: 0;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
-  border-left: 43.3px solid #679AD3;
+  border-left: 43.3px solid #c43108;
   left: 179.3px;
   bottom: 75px; }
 
@@ -107,11 +116,10 @@
   border: 1px solid #eee;
   transition: all ease-in-out .3s; }
   .animate-logo h1 {
-    font-family: arial;
     text-align: center;
-    color: #333;
+    color: #555;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     width: 100%;
     margin: 0 auto; }
 
@@ -122,5 +130,5 @@
     opacity: 0;
     transform: rotate(0); }
   to {
-    opacity: 0.7;
+    opacity: 0.9;
     transform: rotate(360deg); } }

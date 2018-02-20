@@ -3,6 +3,7 @@
  *  @author franckysolo
  *  @date 16/02/2018
  */
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar');
 $color-1: #32A4DA;
 $color-2: #9D84BE;
 $color-3: #DA569F;
@@ -14,9 +15,13 @@ $color-8: #3CB54C;
 $color-9: #1FBCC1;
 $color-10: #679AD3;
 
-$main-color: #D8332F;
+$main-color: #c43108;
 
 $ratio: 1.732;
+
+body {
+  font-family: 'Mukta Malar', sans-serif;
+}
 
 @mixin resetsize {
   width: 0;
@@ -54,10 +59,10 @@ $ratio: 1.732;
 .t {
   position: absolute;
   transition: all ease-in-out .3s;
-  opacity: 0.7;
+  opacity: 0.9;
   animation: deploy 2s alternate-reverse 1s 2;
   &:hover {
-    opacity: 0.9;
+    opacity: 1;
     transform: rotateZ(360deg);
   }
 }
@@ -123,11 +128,10 @@ $ratio: 1.732;
   border: 1px solid #eee;
   transition: all ease-in-out .3s;
   h1 {
-    font-family: arial;
     text-align: center;
     color: #555;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     width: 100%;
     margin: 0 auto;
   }
@@ -141,7 +145,7 @@ $ratio: 1.732;
     transform: rotate(0);
   }
   to {
-    opacity: 0.7;
+    opacity: 0.9;
     transform: rotate(360deg);
   }
 }
