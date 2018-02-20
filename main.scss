@@ -14,6 +14,8 @@ $color-8: #3CB54C;
 $color-9: #1FBCC1;
 $color-10: #679AD3;
 
+$main-color: #D8332F;
+
 $ratio: 1.732;
 
 @mixin resetsize {
@@ -61,52 +63,52 @@ $ratio: 1.732;
 }
 
 .t1 {
-  @include arrow-left($color-1);
+  @include arrow-left($main-color);
   left: 50px;
   bottom: 75px;
 }
 .t2 {
-  @include arrow-right($color-2);
+  @include arrow-right($main-color);
   left: 50px;
   bottom: 100px;
 }
 .t3 {
-  @include arrow-left($color-3);
+  @include arrow-left($main-color);
   left: 50px;
   bottom: 125px;
 }
 .t4 {
-  @include arrow-right($color-4);
+  @include arrow-right($main-color);
   left: 93.3px;
   bottom: 125px;
 }
 .t5 {
-  @include arrow-left($color-5);
+  @include arrow-left($main-color);
   left: 93.3px;
   bottom: 100px;
 }
 .t6{
-  @include arrow-right($color-6);
+  @include arrow-right($main-color);
   left: 136px;
   bottom: 100px;
 }
 .t7 {
-  @include arrow-left($color-7);
+  @include arrow-left($main-color);
   left: 136px;
   bottom: 125px;
 }
 .t8{
-  @include arrow-right($color-8);
+  @include arrow-right($main-color);
   left: 179.3px;
   bottom: 125px;
 }
 .t9 {
-  @include arrow-left($color-9);
+  @include arrow-left($main-color);
   left: 179.3px;
   bottom: 100px;
 }
 .t10{
-  @include arrow-right($color-10);
+  @include arrow-right($main-color);
   left: 179.3px;
   bottom: 75px;
 }
